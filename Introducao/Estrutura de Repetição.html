@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curso JavaScript - Estrutura de Repetição</title>
+</head>
+<body>
+    <script>
+        var finalizou=false;
+        var array=[5,2,3,9,7,1,6,83];
+        while(!finalizou){
+            finalizou=true;
+            var aux=0;
+            for(var x=0;x<array.length;x++){
+                if(array[x]>array[x+1]){
+                    aux=array[x+1];
+                    array[x+1]=array[x];
+                    array[x]=aux;
+                    finalizou=false;
+                }
+            }
+        }
+        console.log("Array em ordem crescente:",array);
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curso JavaScript - Operadores Lógicos</title>
+</head>
+<body>
+    <script>
+        var total, isClient;
+        total=prompt("Digite o valor total da compra:");
+        isClient= prompt("Ja e cliente da loja? \n[0]Nao sou | [1]Sou cliente");
+        if(isClient==1 || total>100)
+            total*=0.05;
+        alert("O valor da compra é:"+ total);
+    </script>
+</body>
+</html>

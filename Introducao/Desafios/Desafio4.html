@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desafio 4</title>
+    </head>
+    <body>
+        <script>
+            function skill(tempo){
+                if(tempo>0 && tempo<=1)
+                    return "Iniciante";
+                else if(tempo>1 && tempo<=3)
+                    return "Intermediario";
+                else if(tempo>3 && tempo<=6)
+                    return "Avançado";
+                else
+                    return "Jedi Master";
+            }
+            console.log(skill(3));
+        </script>       
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desafio 5</title>
+    </head>
+    <body>  
+        <script>
+            function userSkills(users){
+                for (const iterable of users) {
+                    console.log(`O(A) ${iterable.nome} possui as habilidades: ${iterable.habilidades.join(",")}`);
+                }
+            }
+            var usuarios=[
+                {
+                    nome:"Diego",
+                    habilidades:["Javascript", "ReactJS", "Redux"]
+                },
+                {
+                    nome:"Gabriel",
+                    habilidades:["VueJS", "Ruby on Rails", "Elixir"]
+                }
+            ];
+            userSkills(usuarios);
+        </script>       
+    </body>
+</html>
