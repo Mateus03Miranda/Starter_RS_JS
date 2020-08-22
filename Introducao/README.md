@@ -2,7 +2,7 @@
     <img src="https://ik.imagekit.io/d4plefqyqv/RS_0pVwi2GRF.png" >    
 </h1>
 
-## Sobre
+## 📝️ Sobre
 Neste módulo de **introdução** foi estudado os princípios básicos do Javascript. Mais precisamente, foi aprendido os tópicos:
 
 - Criação e uso de variáveis
@@ -16,7 +16,7 @@ Neste módulo de **introdução** foi estudado os princípios básicos do Javasc
 - Comando setInterval() e setTimeout()
 
 ---
-## Tecnologias Utilizadas
+## 🔥️ Tecnologias Utilizadas
 
 - Javascript
 ---
