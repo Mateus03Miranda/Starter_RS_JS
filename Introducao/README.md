@@ -16,7 +16,7 @@ Neste módulo de **introdução** foi estudado os princípios básicos do Javasc
 - Comando setInterval() e setTimeout()
 
 ---
-## 🔥️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - Javascript
 ---
